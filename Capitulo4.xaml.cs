@@ -31,7 +31,9 @@ namespace EjerCap4_5
 
         private void Ejer2Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Ejercicio2 ej2 = new Ejercicio2();
+            ej2.Show();
+            this.Close();
         }
 
         private void Ejer5Button_Click(object sender, RoutedEventArgs e)
