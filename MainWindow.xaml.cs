@@ -24,5 +24,15 @@ namespace EjerCap4_5
         {
             InitializeComponent();
         }
+
+        private void Cap4Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Cap5Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
