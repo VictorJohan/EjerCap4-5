@@ -29,6 +29,7 @@ namespace EjerCap4_5
         {
             Capitulo4 cap4 = new Capitulo4();
             cap4.Show();
+            this.Close();
         }
 
         private void Cap5Button_Click(object sender, RoutedEventArgs e)
