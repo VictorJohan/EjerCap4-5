@@ -13,7 +13,7 @@
                 <Label Content="Edad"/>
                 <TextBox Name="edadTextBox" Width="30" Height="20" Margin="5,0"/>
                 <Button Name="insertarButton" Content="Insertar" Width="60" Height="20" Margin="5,0" Click="insertarButton_Click"/>
-                <Button Name="limpiarButton" Content="Limpiar" Width="60" Height="20" Margin="5,0"/>
+                <Button Name="limpiarButton" Content="Limpiar" Width="60" Height="20" Margin="5,0" Click="limpiarButton_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="0,10,0,3">
@@ -27,7 +27,7 @@
                 <TextBlock Name="menorTextBlock" Width="30" Height="20" Background="LightGray"/>
             </StackPanel>
 
-            <Button Name="atarsButton" Content="Atras" Width="60" Height="20" Margin="5,6,5,20" HorizontalAlignment="Left"/>
+            <Button Name="atarsButton" Content="Atras" Width="60" Height="20" Margin="5,6,5,20" HorizontalAlignment="Left" Click="atarsButton_Click"/>
 
         </StackPanel>
     </Grid>
