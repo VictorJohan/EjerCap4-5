@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Humanizer;
 
 namespace EjerCap4_5
 {
@@ -34,7 +35,9 @@ namespace EjerCap4_5
 
         private void Cap5Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Capitulo5 c5 = new Capitulo5();
+            c5.Show();
+            this.Close();
         }
     }
 }

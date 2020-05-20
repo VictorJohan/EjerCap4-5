@@ -1,0 +1,26 @@
+﻿<Window x:Class="EjerCap4_5.Capitulo5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerCap4_5"
+        mc:Ignorable="d"
+        Title="Capitulo 5" Height="140" Width="250" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+           
+                <StackPanel Orientation="Horizontal" Margin="0,-3,0,0" >
+                    <Label Content="Ejercicio 4"/>
+                    <Button Name="Ejer4Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Ejer4Button_Click"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
+                    <Label Content="Ejercicio 5"/>
+                    <Button Name="Ejer5Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Ejer5Button_Click"/>
+                </StackPanel>
+
+            <Button Name="atrasButton" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="0,12,0,0" Click="atrasButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
