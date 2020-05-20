@@ -12,7 +12,7 @@
             <StackPanel Orientation="Horizontal">
                 <Label Content="Numero"/>
                 <TextBox Name="numeroTextBox" Width="55" Height="20" Margin="16,0,0,0"/>
-                <Button Name="convertirButton" Content="Convertir" Width="60" Height="20" Margin="8,0"/>
+                <Button Name="convertirButton" Content="Convertir" Width="60" Height="20" Margin="8,0" Click="convertirButton_Click"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label Content="Conversion"/>

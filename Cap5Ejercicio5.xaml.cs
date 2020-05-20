@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Humanizer;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -20,6 +21,20 @@ namespace EjerCap4_5
         public Cap5Ejercicio5()
         {
             InitializeComponent();
+        }
+
+        private void convertirButton_Click(object sender, RoutedEventArgs e)
+        {
+            int numero = int.Parse(numeroTextBox.Text);
+
+            conversionTextBlock.Text = numero.ToWords();
+        }
+
+        private void atrasButton_Click(object sender, RoutedEventArgs e)
+        {
+            Capitulo5 c5 = new Capitulo5();
+            c5.Show();
+            this.Close();
         }
     }
 }
