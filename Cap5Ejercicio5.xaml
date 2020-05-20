@@ -1,0 +1,26 @@
+﻿<Window x:Class="EjerCap4_5.Cap5Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerCap4_5"
+        mc:Ignorable="d"
+        Title="Ejercicio 5" Height="200" Width="530" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="En esta ventana podras escribir un numero que luego sera escrito en palabras." FontSize="14"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Numero"/>
+                <TextBox Name="numeroTextBox" Width="55" Height="20" Margin="16,0,0,0"/>
+                <Button Name="convertirButton" Content="Convertir" Width="60" Height="20" Margin="8,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Conversion"/>
+                <TextBlock Name="conversionTextBlock" Height="20" Background="LightGray"/>
+            </StackPanel>
+
+            <Button Name="atrasButton" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="5,19,0,0" Click="atrasButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
