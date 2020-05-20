@@ -22,20 +22,22 @@ namespace EjerCap4_5
             InitializeComponent();
         }
 
-        private void Ejer5Button_Click(object sender, RoutedEventArgs e)
+        private void Ejer4Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Cap5Ejercicio4 cap5ej4 = new Cap5Ejercicio4();
+            cap5ej4.Show();
+            this.Close();
         }
 
-        private void Ejer4Button_Click(object sender, RoutedEventArgs e)
+        private void Ejer5Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
         private void atrasButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
-            mw.Show();
+            Capitulo5 c5 = new Capitulo5();
+            c5.Show();
             this.Close();
         }
     }
