@@ -27,7 +27,7 @@ namespace EjerCap4_5
         {
             int numero = int.Parse(numeroTextBox.Text);
 
-            conversionTextBlock.Text = numero.ToWords();
+            Convertir(numero);
         }
 
         private void atrasButton_Click(object sender, RoutedEventArgs e)
@@ -35,6 +35,11 @@ namespace EjerCap4_5
             Capitulo5 c5 = new Capitulo5();
             c5.Show();
             this.Close();
+        }
+
+        private void Convertir(int numero)
+        {
+            conversionTextBlock.Text = numero.ToWords();
         }
     }
 }

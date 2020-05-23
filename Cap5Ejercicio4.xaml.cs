@@ -24,12 +24,25 @@ namespace EjerCap4_5
 
         private void calcularButton_Click(object sender, RoutedEventArgs e)
         {
-            int num = int.Parse(numTextBox.Text), intFactorial = 1;
+            int num = int.Parse(numTextBox.Text);
+            Factorial(num);
+        }
+
+        private void atrasButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw. Show();
+            this.Close();
+        }
+
+        private void Factorial(int num)
+        {
             String Strfactorial = "";
+            int intFactorial = 1;
 
             Strfactorial += num;
 
-            for(int i = num-1; i>=1; i--)
+            for (int i = num - 1; i >= 1; i--)
             {
                 intFactorial *= i;
                 Strfactorial += ($" x {i}");
@@ -37,13 +50,7 @@ namespace EjerCap4_5
             intFactorial = intFactorial * num;
 
             factorialTextBlock.Text = Strfactorial + " = " + intFactorial + "i";
-        }
 
-        private void atrasButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mw = new MainWindow();
-            mw.Close();
-            this.Close();
         }
     }
 }

@@ -38,8 +38,8 @@ namespace EjerCap4_5
 
         private void atrasButton_Click(object sender, RoutedEventArgs e)
         {
-            Capitulo5 c5 = new Capitulo5();
-            c5.Show();
+            MainWindow mw = new MainWindow();
+            mw.Show();
             this.Close();
         }
     }
